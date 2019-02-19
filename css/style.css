@@ -126,9 +126,9 @@ a {
 
 a:focus, img:focus, button:focus, .btn:focus {outline: none;}
 
-::-moz-selection {background-color:#00a2ff;color:#fff;text-shadow:none;}
+::-moz-selection {background-color:#6b006d;color:#fff;text-shadow:none;}
 
-::selection {background-color: #00a2ff;color: #fff;text-shadow: none;}
+::selection {background-color: #6b006d;color: #fff;text-shadow: none;}
 
 @font-face {font-family: 'Open Sans', sans-serif;}
 
@@ -150,7 +150,7 @@ header[role="header"] nav ul > li{ font-weight:800; font-size:42px; display:bloc
 
 header[role="header"] nav ul > li > a{ display:block; line-height:72px; color:#bbbbbb}
 
-header[role="header"] nav ul > li:hover a,header[role="header"] nav ul > li.nav-active a{ text-decoration:none; color:#00a2ff}
+header[role="header"] nav ul > li:hover a,header[role="header"] nav ul > li.nav-active a{ text-decoration:none; color:#6b006d}
 
 header[role="header"] nav #menu-button {width: 31px;font-size: 0;float: right;height: 19px;position: relative; z-index:70;
 
@@ -181,6 +181,17 @@ header[role="header"] nav #menu-button.open span:nth-child(2) {opacity: 0;left: 
 header[role="header"] nav #menu-button.open span:nth-child(3) {top: 10px;
 
 -webkit-transform: rotate(-135deg);-moz-transform: rotate(-135deg);-o-transform: rotate(-135deg);transform: rotate(-135deg);}
+/*===== Hero image ===*/
+/* .bgimage {
+  width:100%;
+  height:500px;
+  background: url('https://images.unsplash.com/photo-1438109491414-7198515b166b?q=80&fm=jpg&s=cbdabf7a79c087a0b060670a6d79726c');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size:cover;
+  background-attachment: fixed;
+	margin-bottom: 50px;
+} */
 
 /*===== main ===*/
 
@@ -189,7 +200,7 @@ main[role="main-home-wrapper"] article[role="pge-title-content"] header,main[rol
 
 main[role="main-home-wrapper"] article[role="pge-title-content"] header h2,main[role="main-inner-wrapper"] article[role="pge-title-content"] header h2{ font-size:46px; line-height:53px; color:#404040; font-weight:800}
 
-main[role="main-home-wrapper"] article[role="pge-title-content"] header h2 span,main[role="main-inner-wrapper"] article[role="pge-title-content"] header h2 span{ display:block; font-size:80px; color:#00a2ff; padding-bottom:30px}
+main[role="main-home-wrapper"] article[role="pge-title-content"] header h2 span,main[role="main-inner-wrapper"] article[role="pge-title-content"] header h2 span{ display:block; font-size:80px; color:#6b006d; padding-bottom:30px}
 
 main[role="main-home-wrapper"] article[role="pge-title-content"] p,main[role="main-inner-wrapper"] article[role="pge-title-content"] p{ font-size:20px; line-height:30px; text-align: justify; color:#454545}
 
@@ -207,7 +218,7 @@ footer[role="footer"] nav > ul > li{ display: inline-block; text-transform:upper
 
 footer[role="footer"] nav > ul > li > a{ color:#9d9d9d}
 
-footer[role="footer"] nav > ul > li:hover a{ text-decoration:none; color:#00a2ff}
+footer[role="footer"] nav > ul > li:hover a{ text-decoration:none; color:#6b006d}
 
 footer[role="footer"] ul[role="social-icons"]{ padding:0; margin:0; text-align:center; padding-bottom:40px;}
 
@@ -215,7 +226,7 @@ footer[role="footer"] ul[role="social-icons"] > li{ display: inline-block; margi
 
 footer[role="footer"] ul[role="social-icons"] > li > a{ display:block; width:42px; height:42px; background-color:#bbbbbb; color:#FFF; line-height:42px; font-size:20px; border-radius:100%; text-align:center}
 
-footer[role="footer"] ul[role="social-icons"] > li:hover a{ background-color:#00a2ff}
+footer[role="footer"] ul[role="social-icons"] > li:hover a{ background-color:#6b006d}
 
 footer[role="footer"] .copy-right{ text-align:center; display:block; font-size:12px; line-height:13px; color:#9c9c9c}
 
@@ -279,13 +290,13 @@ border-radius: 30%;
 }
 /* main[role="main-inner-wrapper"] .thumbnails-pan section figure,main[role="main-inner-wrapper"] .thumbnails-pan section figure, img,main[role="main-inner-wrapper"] .thumbnails-pan section figure figcaption,section.blog-content figure,section.blog-content} */
 
-main[role="main-inner-wrapper"] .thumbnails-pan section figure figcaption{ position:absolute; bottom:-50%; left:0; right:0; background-color:#00a2ff; margin:0 69px; text-align:center; color:#FFF; padding-top:16px; padding-bottom:27px}
+main[role="main-inner-wrapper"] .thumbnails-pan section figure figcaption{ position:absolute; bottom:-50%; left:0; right:0; background-color:#6b006d; margin:0 69px; text-align:center; color:#FFF; padding-top:16px; padding-bottom:27px}
 
 main[role="main-inner-wrapper"] .thumbnails-pan section figure figcaption h3{ font-size:21px; line-height:22px; font-weight:300}
 
 main[role="main-inner-wrapper"] .thumbnails-pan section figure figcaption h5{ text-transform:uppercase; font-size:13px; line-height:14px; font-weight:bold}
-
-main[role="main-inner-wrapper"] .thumbnails-pan section figure:hover,section.blog-content:hover article{ background-color:#00a2ff; color:#FFF}
+#6b006d;
+main[role="main-inner-wrapper"] .thumbnails-pan section figure:hover,section.blog-content:hover article{ background-color:#6b006d; color:#FFF}
 
 main[role="main-inner-wrapper"] .thumbnails-pan section figure:hover img,section.blog-content:hover figure img{-webkit-transform: scale3d(1.08,1.08,2);transform: scale3d(1.08,1.08,2); opacity:0.5}
 
@@ -296,7 +307,7 @@ main[role="main-inner-wrapper"] .thumbnails-pan section figure:hover figcaption{
 
 article[role="pge-title-content"].contact-header p a{ color:#343434; padding-right:34px}
 
-article[role="pge-title-content"].contact-header p a:hover{color:#00a2ff; text-decoration:none}
+article[role="pge-title-content"].contact-header p a:hover{color:#6b006d; text-decoration:none}
 
 .demo-wrapper {width: 100%;margin: 0 auto;height:499px;}
 
@@ -306,7 +317,7 @@ article[role="pge-title-content"].contact-header p a:hover{color:#00a2ff; text-d
 
 #success_page h3,#success_page p{color:#60ca6f }
 
-.contat-from-wrapper{ padding:0 69px; margin-top:108px; background-color: #f1f1f1; padding: 15px;}
+.contat-from-wrapper{ padding:0 69px; margin-top:30px; background-color: #f1f1f1; padding: 15px;}
 
 .contat-from-wrapper input[type="text"],.contat-from-wrapper input[type="email"],.contat-from-wrapper textarea{ width:100%; display:block; outline:none; border-bottom:1px solid #bbbbbb; background-color:inherit; color:#404040; font-size:21px; line-height:23px; padding-bottom:24px}
 
@@ -322,9 +333,9 @@ article[role="pge-title-content"].contact-header p a:hover{color:#00a2ff; text-d
 
 .contat-from-wrapper textarea{ border-bottom:1px solid #bbbbbb; border-left:none; border-right:none; border-top:none; height:77px; margin-top:56px}
 
-.contat-from-wrapper input[type="submit"]{ display:block; border:none; outline:none; width:200px; line-height:60px; text-transform:uppercase; font-size:21px; color:#FFF; font-weight:800; letter-spacing:2px; background-color:#00a2ff; margin:41px auto; margin-bottom:0}
+.contat-from-wrapper input[type="submit"]{ display:block; border:none; outline:none; width:200px; line-height:60px; text-transform:uppercase; font-size:21px; color:#FFF; font-weight:800; letter-spacing:2px; background-color:#6b006d; margin:41px auto; margin-bottom:0}
 
-.contat-from-wrapper input[type="submit"]:hover{background-color:white; border: solid 3px #00a2ff; color:#00a2ff;}
+.contat-from-wrapper input[type="submit"]:hover{background-color:white; border: solid 3px #6b006d; color:#6b006d;}
 
 /*== Work Details ==*/
 
@@ -332,13 +343,13 @@ article[role="pge-title-content"].contact-header p a:hover{color:#00a2ff; text-d
 
 .work-details header h2{ color:#343434; font-size:36px; font-weight:800; line-height: 50px}
 
-.work-details header a{ display:inline-block; color:#00a2ff; font-size:18px;font-weight:800;padding-top:3px}
+.work-details header a{ display:inline-block; color:#6b006d; font-size:18px;font-weight:800;padding-top:3px}
 
 .work-details header a i{ color:#0d0d0d; padding-left:10px}
 
 .work-details header a:hover{ color:#0d0d0d; text-decoration:underline;}
 
-.work-details header a:hover i{ background-color:white; border: solid 3px #00a2ff; color:#00a2ff;}
+.work-details header a:hover i{ background-color:white; border: solid 3px #6b006d; color:#6b006d;}
 
 .work-details p{ font-size:16px; color:rgba(0,0,0,.84); line-height:30px; margin-bottom:20px; font-weight:300; text-align:justify}
 }
@@ -356,7 +367,7 @@ article[role="pge-title-content"].contact-header p a:hover{color:#00a2ff; text-d
 
 .bog-header h3,.comments-pan h3,.commentys-form h4{ color:#404040;font-weight:800; padding-bottom:24px; display:block}
 
-.bog-header h3 span{ color:#00a2ff}
+.bog-header h3 span{ color:#6b006d}
 
 .bog-header h2{ font-size:36px; font-weight:normal}
 
@@ -380,7 +391,7 @@ article[role="pge-title-content"].contact-header p a:hover{color:#00a2ff; text-d
 
 .comments-reply li section h4{font-weight:800; color:#404040; font-size:21px; margin-bottom:6px; margin-top:0}
 
-.comments-reply li section h4 a{ font-size:16px; color:#00a2ff;font-weight:400; display:inline-block; padding-left:20px}
+.comments-reply li section h4 a{ font-size:16px; color:#6b006d;font-weight:400; display:inline-block; padding-left:20px}
 
 .reply-pan{ clear:both; display:block; margin-left:100px;padding-top:39px }
 
@@ -396,6 +407,6 @@ article[role="pge-title-content"].contact-header p a:hover{color:#00a2ff; text-d
 
 .commentys-form input[type="text"]:focus,.commentys-form input[type="email"]:focus,.commentys-form input[type="url"]:focus,.commentys-form textarea:focus{ border-bottom-color:#000}
 
-.commentys-form input[type="button"]{ padding:0 36px; text-transform:uppercase; display:inline-block; font-size:21px; line-height:60px; color:#FFF; font-weight: bold; text-align:center; border:none; outline:none; background-color:#00a2ff; margin-top:50px}
+.commentys-form input[type="button"]{ padding:0 36px; text-transform:uppercase; display:inline-block; font-size:21px; line-height:60px; color:#FFF; font-weight: bold; text-align:center; border:none; outline:none; background-color:#6b006d; margin-top:50px}
 
-.commentys-form input[type="button"]:hover{ background-color:white; border: solid 3px #00a2ff} */
+.commentys-form input[type="button"]:hover{ background-color:white; border: solid 3px #6b006d} */
